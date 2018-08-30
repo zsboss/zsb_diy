@@ -16,12 +16,12 @@
         "php": ">=7.1",
         "ext-curl": "*"
     },
-    "minimum-stability":"dev",
+
     "require-dev": {
 
     },
     "autoload" : {
-        "psr-4": {"zsb\\": "src/Myword/"}
+        "psr-4": {"zsb_diy\\": "src/Myword/"}
     }
 
 
