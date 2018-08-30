@@ -1,0 +1,28 @@
+{
+    "name": "zsb_diy/zsb_diy",
+    "type": "library",
+    "description": "这个是我的第一个composer包",
+    "homepage": "https://git.coding.net/zsboss/zsb_composer.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "码农先生",
+            "email": "807098383@qq.com",
+            "homepage": "http://blog.zsboss888.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-curl": "*"
+    },
+    "minimum-stability":"dev",
+    "require-dev": {
+
+    },
+    "autoload" : {
+        "psr-4": {"zsb\\": "src/Myword/"}
+    }
+
+
+}
